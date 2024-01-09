@@ -7,33 +7,41 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: rgb(1, 43, 29);
 }
 
 .header {
   text-align: center;
   text-decoration: underline;
+  color: #fff;
 }
 
 .paragraph {
   text-align: center;
   font-size: 1.25rem;
   margin: 2rem 0;
+  color: #fff;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 80vw;
+  grid-template-columns: repeat(7, 1fr);
+  width: 90vw;
   margin: auto;
   grid-gap: 5rem;
 }
 
 .link {
-  background-color: crimson;
-  color: #fff;
+  background-color: lightblue;
   padding: 1.5rem;
   text-align: center;
   text-decoration: none;
   width: auto;
+  border: 1.5px solid #fff;
+}
+
+.link:hover {
+  background-color: crimson;
+  color: #fff;
+  transition: 1s;
 }
