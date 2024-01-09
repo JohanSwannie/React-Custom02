@@ -14,3 +14,26 @@ body {
   text-align: center;
   text-decoration: underline;
 }
+
+.paragraph {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80vw;
+  margin: auto;
+  grid-gap: 5rem;
+}
+
+.link {
+  background-color: crimson;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+}
